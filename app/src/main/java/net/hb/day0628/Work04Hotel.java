@@ -78,8 +78,7 @@ public class Work04Hotel {
 		System.out.println("\n\t[ "+ title +" 투숙 상태 ]");
 	    for(int i = 0; i < 3; i++){
 	      for(int b = 0; b < 5; b++){
-	        System.out.print((i+1)+"0"+(b+1)+"\t");
-	      }
+	        System.out.print((i+1)+"0"+(b+1)+"\t"); }
 
 	      System.out.println(); //이름표시 공백란입니다
 
