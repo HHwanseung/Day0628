@@ -80,7 +80,7 @@ public class Work04Hotel {
 	      for(int b = 0; b < 5; b++){
 	        System.out.print((i+1)+"0"+(b+1)+"\t"); }
 
-	      System.out.println(); //이름표시 공백란입니다
+	      System.out.println();
 
 	      for(int j = 0; j < 5; j++){
 	        if(this.name[i][j] == null){
