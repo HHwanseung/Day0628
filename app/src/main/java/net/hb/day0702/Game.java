@@ -10,7 +10,7 @@ class Zerg { //Terran.javaX, Terran.class
 
 public class Game { //Game.java, Game.class
 	public static void main(String[] args) {
-		System.out.println("Game클래스 main");
+		System.out.println("Game�겢�옒�뒪 main");
 	}//end
 	
 	public class MyExit { // Game$MyExit.class , MyExit.javaX
