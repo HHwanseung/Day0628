@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>testjs3.html</title>
+    <style>
+        *{font-size: 16pt;}
+    </style>
+
+    <script>
+        sunsu = new Array();
+        my = new Array("./images/main1.jpg","./images/main2.jpg" ,"./images/main3.jpg", "./images/main3.jpg" );
+
+        function start() {
+            for ( a= 0; a<4; a++) {
+                sunsu[a] Math.round( Math.random( )* 10);
+                for ( b =0; b<a; b++) { if(sunsu[b] == sunsu[a]){ a--;} }
+                document.write(sunsu[a] + "  ");
+            }
+        }      
+
+        function {
+
+        }
+    </script>
+</head>
+<body>
+    testjs3.html <br>
+
+    <button onclick = "start();">난수중복start</button> <br>
+
+    <script>
+       
+        imgsource = new Array('./images/pic1.png','./images/aaa.gif', './images/a2.png',  './images/pig.png','./images/a3.png', './images/a4.png', './images/pic6.png'  );
+        for(i=0 ; i<4; i++){
+            if(i%2==0){
+                document.writeln("<br>");
+            }
+            document.write("<img src='" + imgsource[i]  + "' border='1' width='100' height='70'>  ");
+        }
+    </script>
+</body>
+</html>
+
+
+
+
