@@ -36,7 +36,7 @@ public class App {
 
     keyScan.close();
 
-    System.out.println("안녕히 가세요!");
+    System.out.println("안녕히 가시오");
   }
 
 
